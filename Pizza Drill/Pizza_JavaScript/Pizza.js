@@ -35,12 +35,12 @@ function getTopping (runningTotal,text1) {
     for (var j = 0; j < toppingArray.length; j++)
 {
   if (toppingArray[j].checked) {
-selectedTopping.push(toppingArray[j].value);
+selectedtopping.push(toppingArray[j].value);
   console.log("selected topping item: ("+toppingArray[j].value+")");
   text1 = text1+toppingArray[j].value+"<br>";
 }
 }
-var toppingCount = selectedTopping.length;
+var toppingCount = selectedtopping.length;
 if (toppingCount > 1) {
     toppingTotal = (toppingCount - 1);
 } else {
